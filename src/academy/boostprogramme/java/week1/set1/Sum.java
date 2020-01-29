@@ -9,10 +9,10 @@ public class Sum{
     }
     public static void main(String[] args) {
         int sumInt = sumInt(21, 21);
-        double sumDouble = sumDouble(6.1, 6.1);
+        ;
 
         System.out.println("The int sum is " + sumInt);
-        System.out.println("The double sum is " + sumDouble);
+        System.out.println("The double sum is " + sumInt);
 
     }
 }
