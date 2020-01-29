@@ -2,7 +2,8 @@ package academy.boostprogramme.java.week1.set1;
 
 public class Division {
     public static double divide(double numbOne, double numbTwo) {
-        return numbOne/numbTwo;
+        double quotient = numbOne / numbTwo;
+        return quotient;
     }
 
     public static void main(String[] args) {
