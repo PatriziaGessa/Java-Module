@@ -8,8 +8,8 @@ public class Sum{
         return numbOne + numbTwo;
     }
     public static void main(String[] args) {
-        int sumInt = sumInt(21, 21);
-        double sumDouble = sumDouble(11.9D,0.3D);
+        int sumInt = sumInt(21,21);
+        double sumDouble = sumDouble(11.5,0.5);
 
         System.out.println("The int sum is " + sumInt);
         System.out.println("The double sum is " + sumDouble);
