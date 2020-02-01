@@ -1,4 +1,6 @@
 package academy.boostprogramme.java.week1.set2;
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -34,10 +36,11 @@ public class CombosLists {
         List<String> combosLists = combine(numbsInLettersOne, numbsInLettersTwo);
         for (String numb : combosLists) {
             System.out.println(numb);
+
         }
 
 
     }
-
+    
 
 }
