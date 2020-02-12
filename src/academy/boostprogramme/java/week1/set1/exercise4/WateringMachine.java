@@ -9,7 +9,7 @@ public class WateringMachine {
         int numbWateringMachine = 1;
         int capacityWateringMachine = 4;
 
-        int numberOfWateringMachineToBuy = (numbPlantsToBuy / capacityWateringMachine) - numbWateringMachine;
+        int numberOfWateringMachineToBuy = (numbTotalPlants / capacityWateringMachine) - numbWateringMachine;
 
         int priceProMachine = 20;
         int discount = 20;
@@ -18,7 +18,7 @@ public class WateringMachine {
         int finalCost = (discount - priceWithDiscount) * numberOfWateringMachineToBuy;
 
         System.out.println("The number of machine to buy is: " + numberOfWateringMachineToBuy);
-        System.out.println("The saving is: " + priceProMachine + "€");
+        System.out.println("The saving is: " + priceWithDiscount + "€");
         System.out.println("The final cost is: " + finalCost + "€");
 
     }
