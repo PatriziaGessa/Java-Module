@@ -4,7 +4,7 @@ public class Student {
     private String name;
     private String namePaarProgrammer;
 
-    public Student (String name, String namePaarProgrammer) {
+    public Student(String name, String namePaarProgrammer){
         this.name = name;
         this.namePaarProgrammer = namePaarProgrammer;
     }
@@ -17,8 +17,7 @@ public class Student {
         return namePaarProgrammer;
     }
 
-    public void setNamePaarProgrammer (String namePaarProgrammer){
+    public void setNamePaarProgrammer(String paolo) {
         this.namePaarProgrammer = namePaarProgrammer;
     }
 }
-
