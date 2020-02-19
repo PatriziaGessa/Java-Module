@@ -1,13 +1,14 @@
 package academy.boostprogramme.java.week2.set2.exercise1;
 
 public class Application {
+
     public static void main(String[] args) {
-        MovieNamePrinter movieNamePrinter = new MovieNamePrinter();
-        TicketPrinter ticketPrinter = new TicketPrinter(movieNamePrinter);
+        Article article = new Article(
+                "Life Is Beautiful",
+                "Buongiorno Principessa!"
+        );
 
-        ticketPrinter.print("Titanic" , "20th of December 1997");
-
-
-
+    Printer print = new Printer();
+    print.print(article);
     }
 }
