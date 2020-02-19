@@ -1,0 +1,11 @@
+package academy.boostprogramme.java.week2.set2.exercise2;
+
+public class Printer {
+
+    public void print (Article article) {
+        System.out.println("--" + article.getTitle() + "--");
+        System.out.println(article.getText());
+    }
+
+
+}
