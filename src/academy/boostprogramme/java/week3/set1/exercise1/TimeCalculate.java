@@ -6,11 +6,11 @@ public class TimeCalculate {
         return distance * 15;
     }
 
-    double calculateTramTime(int numbOfStations) {
+    double calculateTramTime(double numbOfStations) {
         return numbOfStations * 4;
     }
 
-    double calculateTotalTime(int numbOfStations, double distanceToTheTram, double distanceToTheHouseOfTheFriend) {
+    double calculateTotalTime(double numbOfStations, double distanceToTheTram, double distanceToTheHouseOfTheFriend) {
         double timeDistanceToTheTram = calculateWalkingTime(distanceToTheTram);
         double  timeStations = calculateTramTime(numbOfStations);
         double timeWalkingToTheFriendsHouse = calculateWalkingTime(distanceToTheHouseOfTheFriend);
