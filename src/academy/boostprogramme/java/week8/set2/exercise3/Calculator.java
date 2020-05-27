@@ -1,0 +1,17 @@
+package academy.boostprogramme.java.week8.set2.exercise3;
+
+import javax.swing.text.html.Option;
+import java.util.List;
+import java.util.Optional;
+
+public class Calculator {
+
+    private List<Operator> operators = Operators.get();
+
+    public Optional<Double> calculate(Calculation calculation) {
+        return operators.stream()
+                .filter(operator -> operator.getSymbol().equals(calculation.getSymbol()))
+                .map(operator -> operator.operate(calculation.getNumber1(), calculation.getNumber2()))
+                .findFirst();
+    }
+}
